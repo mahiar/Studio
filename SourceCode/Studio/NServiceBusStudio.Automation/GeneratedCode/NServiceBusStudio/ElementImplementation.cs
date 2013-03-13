@@ -104,8 +104,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -115,8 +115,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -304,8 +304,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -315,8 +315,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -450,8 +450,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -461,8 +461,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -656,8 +656,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -667,8 +667,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -895,8 +895,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -906,8 +906,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -1101,8 +1101,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -1112,8 +1112,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -1322,8 +1322,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -1333,8 +1333,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -1528,8 +1528,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -1539,8 +1539,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -1674,8 +1674,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -1685,8 +1685,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -1820,8 +1820,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -1831,8 +1831,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -2122,8 +2122,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -2133,8 +2133,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -2310,8 +2310,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -2321,8 +2321,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -2588,8 +2588,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -2599,8 +2599,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -2776,8 +2776,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -2787,8 +2787,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -3042,8 +3042,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -3053,8 +3053,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -3230,8 +3230,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -3241,8 +3241,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -3364,8 +3364,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -3375,8 +3375,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -3498,8 +3498,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -3509,8 +3509,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -3680,8 +3680,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -3691,8 +3691,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -3814,8 +3814,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -3825,8 +3825,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -3865,7 +3865,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual IUseCaseStep CreateUseCaseStep(string name, Action<IUseCaseStep> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<IUseCaseStep>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<IUseCaseStep>(name, initializer, raiseInstantiateEvents);
 		}
 		
 		/// <summary>
@@ -3875,7 +3875,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual IUseCaseLink CreateUseCaseLink(string name, Action<IUseCaseLink> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<IUseCaseLink>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<IUseCaseLink>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -4068,8 +4068,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -4079,8 +4079,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -4238,8 +4238,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -4249,8 +4249,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -4384,8 +4384,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -4395,8 +4395,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }

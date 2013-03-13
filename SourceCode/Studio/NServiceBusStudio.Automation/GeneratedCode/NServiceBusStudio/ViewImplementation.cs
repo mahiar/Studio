@@ -165,7 +165,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual IContractsProject CreateContractsProject(string name, Action<IContractsProject> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<IContractsProject>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<IContractsProject>(name, initializer, raiseInstantiateEvents);
 		}
 		
 		/// <summary>
@@ -175,7 +175,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual IInternalMessagesProject CreateInternalMessagesProject(string name, Action<IInternalMessagesProject> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<IInternalMessagesProject>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<IInternalMessagesProject>(name, initializer, raiseInstantiateEvents);
 		}
 		
 		/// <summary>

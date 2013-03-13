@@ -89,6 +89,7 @@
                     <property Id="7112db9d-9549-4e43-ab5f-c24157444e8b" definitionId="32699d9a-aa7d-4a51-8c86-6b2a708be486" definitionName="ToolkitProjectRootNamespace" rawValue="NServiceBusStudio" />
                     <property Id="59007aca-38b1-4152-9967-2d82a7e40d20" definitionId="11ac48e6-d493-49ca-9a01-65dac40d6d42" definitionName="ProjectAssemblyName" rawValue="NServiceBusStudio.Automation" />
                     <property Id="7277df3a-d7c7-4a3a-b173-58f965665c8e" definitionId="44d4abc1-7e06-4ea4-8673-d0adb12fea71" definitionName="ExcludeFromCodeCoverage" rawValue="True" />
+                    <property Id="6638a504-7acf-4aed-b408-c1b7ff2c6ac6" definitionId="7864a4c0-2152-4c05-8bf3-30d414d312f8" definitionName="ProjectName" rawValue="NServiceBusStudio.Automation" />
                   </properties>
                   <references>
                     <reference Id="3e2cf6a3-0aea-47ec-abbc-4ae9ea18af93" value="solution://e99c1949-f384-4f9e-9ea8-8f020ca9d8a5/" kind="NuPattern.Extensibility.References.SolutionArtifactLinkReference" tag="{&#xD;&#xA;  &quot;Tag&quot;: &quot;&quot;,&#xD;&#xA;  &quot;TargetFileName&quot;: &quot;{Parent.Parent.Parent.InstanceName}.Automation&quot;,&#xD;&#xA;  &quot;SyncNames&quot;: false,&#xD;&#xA;  &quot;Id&quot;: &quot;0d64d7af-d72f-434f-9693-1f27420bec49&quot;&#xD;&#xA;}" />

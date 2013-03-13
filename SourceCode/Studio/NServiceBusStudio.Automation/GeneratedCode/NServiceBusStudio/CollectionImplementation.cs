@@ -104,8 +104,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -115,8 +115,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -147,7 +147,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual IService CreateService(string name, Action<IService> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<IService>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<IService>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -256,8 +256,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -267,8 +267,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -438,8 +438,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -449,8 +449,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -481,7 +481,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual IEvent CreateEvent(string name, Action<IEvent> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<IEvent>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<IEvent>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -602,8 +602,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -613,8 +613,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -645,7 +645,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual ICommand CreateCommand(string name, Action<ICommand> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<ICommand>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<ICommand>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -754,8 +754,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -765,8 +765,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -797,7 +797,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual IComponent CreateComponent(string name, Action<IComponent> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<IComponent>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<IComponent>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -906,8 +906,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -917,8 +917,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -957,7 +957,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual IEventLink CreateEventLink(string name, Action<IEventLink> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<IEventLink>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<IEventLink>(name, initializer, raiseInstantiateEvents);
 		}
 		
 		/// <summary>
@@ -967,7 +967,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual ICommandLink CreateCommandLink(string name, Action<ICommandLink> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<ICommandLink>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<ICommandLink>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -1076,8 +1076,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -1087,8 +1087,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -1127,7 +1127,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual ISubscribedEventLink CreateSubscribedEventLink(string name, Action<ISubscribedEventLink> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<ISubscribedEventLink>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<ISubscribedEventLink>(name, initializer, raiseInstantiateEvents);
 		}
 		
 		/// <summary>
@@ -1137,7 +1137,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual IProcessedCommandLink CreateProcessedCommandLink(string name, Action<IProcessedCommandLink> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<IProcessedCommandLink>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<IProcessedCommandLink>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -1246,8 +1246,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -1257,8 +1257,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -1289,7 +1289,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual ILibraryReference CreateLibraryReference(string name, Action<ILibraryReference> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<ILibraryReference>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<ILibraryReference>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -1410,8 +1410,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -1421,8 +1421,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -1453,7 +1453,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual IServiceLibrary CreateServiceLibrary(string name, Action<IServiceLibrary> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<IServiceLibrary>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<IServiceLibrary>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -1562,8 +1562,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -1573,8 +1573,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -1621,7 +1621,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual INServiceBusHost CreateNServiceBusHost(string name, Action<INServiceBusHost> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<INServiceBusHost>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<INServiceBusHost>(name, initializer, raiseInstantiateEvents);
 		}
 		
 		/// <summary>
@@ -1631,7 +1631,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual INServiceBusWeb CreateNServiceBusWeb(string name, Action<INServiceBusWeb> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<INServiceBusWeb>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<INServiceBusWeb>(name, initializer, raiseInstantiateEvents);
 		}
 		
 		/// <summary>
@@ -1641,7 +1641,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual INServiceBusMVC CreateNServiceBusMVC(string name, Action<INServiceBusMVC> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<INServiceBusMVC>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<INServiceBusMVC>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -1750,8 +1750,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -1761,8 +1761,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -1793,7 +1793,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual INServiceBusHostComponentLink CreateNServiceBusHostComponentLink(string name, Action<INServiceBusHostComponentLink> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<INServiceBusHostComponentLink>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<INServiceBusHostComponentLink>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -1902,8 +1902,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -1913,8 +1913,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -1945,7 +1945,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual INServiceBusWebComponentLink CreateNServiceBusWebComponentLink(string name, Action<INServiceBusWebComponentLink> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<INServiceBusWebComponentLink>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<INServiceBusWebComponentLink>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -2054,8 +2054,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -2065,8 +2065,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -2097,7 +2097,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual INServiceBusMVCComponentLink CreateNServiceBusMVCComponentLink(string name, Action<INServiceBusMVCComponentLink> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<INServiceBusMVCComponentLink>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<INServiceBusMVCComponentLink>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -2206,8 +2206,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -2217,8 +2217,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -2358,8 +2358,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -2369,8 +2369,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -2401,7 +2401,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual IAuthentication CreateAuthentication(string name, Action<IAuthentication> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<IAuthentication>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<IAuthentication>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -2510,8 +2510,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -2521,8 +2521,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -2644,8 +2644,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -2655,8 +2655,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -2687,7 +2687,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual IUseCase CreateUseCase(string name, Action<IUseCase> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<IUseCase>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<IUseCase>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>
@@ -2808,8 +2808,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The name of this element instance.
 		///	</summary>
-		[ParenthesizePropertyName(true)]
 		[Description("The name of this element instance.")]
+		[ParenthesizePropertyName(true)]
 		public virtual String InstanceName 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceName); }
@@ -2819,8 +2819,8 @@ namespace NServiceBusStudio
 		///	<summary>
 		///	The order of this element relative to its siblings.
 		///	</summary>
-		[ReadOnly(true)]
 		[Description("The order of this element relative to its siblings.")]
+		[ReadOnly(true)]
 		public virtual Double InstanceOrder 
 		{ 
 			get { return this.proxy.GetValue(() => this.InstanceOrder); }
@@ -2851,7 +2851,7 @@ namespace NServiceBusStudio
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed")]
 		public virtual ILibrary CreateLibrary(string name, Action<ILibrary> initializer = null, bool raiseInstantiateEvents = true)
 		{
-			return proxy.CreateElement<ILibrary>(name, initializer, raiseInstantiateEvents);	
+			return proxy.CreateElement<ILibrary>(name, initializer, raiseInstantiateEvents);
 		}
 
 		/// <summary>

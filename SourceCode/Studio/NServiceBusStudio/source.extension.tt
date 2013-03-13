@@ -38,7 +38,7 @@
   <References>
 		<Reference Id="be731d99-2fd0-4514-9d8d-8d803fe6dc4a">
 		  <Name>NServiceBus Modeling</Name>
-		  <VsixPath>NServiceBus.Modeling.EndpointDesign.Shell.<#=supportedVsVersion#>.vsix</VsixPath>
+		  <VsixPath>NServiceBus.Modeling.EndpointDesign.Shell.vsix</VsixPath>
 		</Reference>
 		<Reference Id="<#=managerVsixIdentifier#>"  MinVersion="<#=managerVsixVersion#>">
 		  <Name><#=managerVsixName#></Name>
@@ -47,11 +47,11 @@
 	  </References>
 	<Content>
 		<Assembly AssemblyName="<#= assemblyName #>">|%CurrentProject%|</Assembly>
-		<MefComponent>|<#= productName #>|</MefComponent>
-		<MefComponent>|<#= productName #>.Automation|</MefComponent>
+		<MefComponent>|<#=rootNamespace#>|</MefComponent>
+		<MefComponent>|<#=libraryProjectName#>|</MefComponent>
 		<MefComponent>|EndpointDesign|</MefComponent>
 		<MefComponent>|EndpointDesign.Shell|</MefComponent>
-		<CustomExtension Type="PatternModel" AssemblyFile="<#= assemblyName #>.dll"><#= rootNamespace #>.PatternModel.patterndefinition</CustomExtension>		
+		<CustomExtension Type="PatternModel" AssemblyFile="<#=assemblyName#>.dll"><#=rootNamespace#>.PatternModel.patterndefinition</CustomExtension>		
 		<ItemTemplate>T\I</ItemTemplate>
 		<ProjectTemplate>T\P</ProjectTemplate>
 	</Content>

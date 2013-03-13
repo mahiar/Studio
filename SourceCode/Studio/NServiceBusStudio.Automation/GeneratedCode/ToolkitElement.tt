@@ -30,7 +30,7 @@ using Microsoft.VisualStudio.TeamArchitect.PowerTools.Features.Diagnostics;
 using NServiceBusStudio.Automation.Infrastructure;
 using NServiceBusStudio.Automation.Extensions;
 
-namespace <#= this.ProductState.Products.First().As<IPatternToolkit>().ProjectRootNamespace #>
+namespace NServiceBusStudio
 {
 	#region Interfaces
 <#
